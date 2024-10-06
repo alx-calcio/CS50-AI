@@ -1,0 +1,8 @@
+DARK_GREY = (46, 46, 46)
+LIGHT_GREY = (80, 80, 80)
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+X = "X"
+O = "O"
+EMPTY = None
+RESOLUTION = (300, 300)
