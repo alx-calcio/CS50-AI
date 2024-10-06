@@ -81,9 +81,9 @@ class Maze:
                 if col:
                     print("█", end="")
                 elif (i, j) == self.start:
-                    print("A", "")
+                    print("A", end="")
                 elif (i, j) == self.goal:
-                    print("B", "")
+                    print("B", end="")
                 elif solution is not None and (i, j) in solution:
                     print("*", end="")
                 else:
